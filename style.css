@@ -1,0 +1,10 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url('./images/360_F_240936998_2wBjelIOKw1vGKkfOpCjiA25waBAiLeb.jpg');
+}
+
+.navbar{
+    background-color: purple;
+}
