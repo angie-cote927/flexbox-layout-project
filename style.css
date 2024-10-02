@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Volter;
+    src: url('./images/volter_goldfish/Volter__28Goldfish_29.ttf');
+}
+
 .flex-container{
     display: flex;
     flex-direction: row;
@@ -5,6 +10,62 @@
     background-image: url('./images/360_F_240936998_2wBjelIOKw1vGKkfOpCjiA25waBAiLeb.jpg');
 }
 
+.header{
+    font-family: Volter;
+    color: red;
+    margin: 15px;
+    display:flex;
+    justify-items: end;
+    flex-basis: 1250px;
+}
+
+.logo{
+    justify-items: end;
+    width: 160px;
+    height: 100px;
+}
+
 .navbar{
-    background-color: purple;
+    background-color: rgb(140, 9, 240);
+    flex-basis: 100%;
+    font-size: 20px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-content {
+    flex-basis: 70%;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.sidebar {
+    flex-basis: 30%;
+    padding: 20px;
+    background-color: #e0e0e0;
 }
